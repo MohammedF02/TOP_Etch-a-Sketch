@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 40rem;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-item {
+  padding: 0px;
+  background-color: white;
+  text-align: center;
+}
+.setGridButtonDiv{
+  text-align: center;
+    
+  margin-block: 16px;
+}
